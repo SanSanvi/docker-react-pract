@@ -6,4 +6,4 @@ before_install:
   - docker build -t sandeep/docker-react-pract -f Dockerfile.dev .
 
 script:
-  - docker run sandeep/docker-react-pract npm run test -- --coverage
+  - docker run -e CI=true sandeep/docker-react-pract npm run test
