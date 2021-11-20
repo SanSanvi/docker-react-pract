@@ -14,5 +14,6 @@ deploy:
   site: DockerReact
   username: sansanvi
   password: Sanvi12$$
+  skip_cleanup: true
   on:
     branch: master
