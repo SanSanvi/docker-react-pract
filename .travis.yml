@@ -11,7 +11,7 @@ script:
 deploy:
   provider: azure_web_apps
   verbose: true
-  app: DockerReact
+  site: DockerReact
   username: sansanvi
   password: Sanvi12$$
   on:
